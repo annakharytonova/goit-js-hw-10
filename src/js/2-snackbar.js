@@ -49,9 +49,3 @@ function promiseSubmit(promiseState, promiseDelay) {
     }, promiseDelay);
   });
 }
-
-iziToast.show({
-  title: 'Test',
-  message: 'This is a test notification!',
-  position: 'topRight',
-});
